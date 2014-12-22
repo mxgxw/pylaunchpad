@@ -9,6 +9,7 @@ How change the samples?
 Put your samples inside the "samples" directory, files must be in ogg format.
 
 To assign to each launch button use the following format:
+```
 -----------------------------------------
 | 1-1.ogg | 1-2.ogg | 1-3.ogg | 1-4.ogg |
 -----------------------------------------
@@ -18,8 +19,9 @@ To assign to each launch button use the following format:
 -----------------------------------------
 | 4-1.ogg | 4-2.ogg | 4-3.ogg | 4-4.ogg |
 -----------------------------------------
-
+```
 For the loops just put the files inside the "loops" directory
+```
 -----------
 |  1.ogg  |
 -----------
@@ -29,12 +31,12 @@ For the loops just put the files inside the "loops" directory
 -----------
 |  4.ogg  |
 -----------
-
+```
 Keyboard mapping
 ================
 
 The keyboard is mapped in the following way:
-
+```
 Samples         | Loops
 ------------------------
 | 1 | 2 | 3 | 4 |  F1  |
@@ -45,14 +47,14 @@ Samples         | Loops
 ------------------------
 | q | w | e | r |  F4  |
 ------------------------
-
+```
 How to use?
 ===========
 
 To start open the console and execute:
-
+```
   $ python pad.py
-
+```
 The launchpad works by default in "trigger" mode. Once you press the button the sample
 is going to be played once as long you keep pressed the button. There is no limit for
 the lenght of the sample.
