@@ -19,6 +19,7 @@ To assign to each launch button use the following format:
 | 1-1.ogg | 1-2.ogg | 1-3.ogg | 1-4.ogg |
 -----------------------------------------
 | 2-1.ogg | 2-2.ogg | 2-3.ogg | 2-4.ogg |
+
 -----------------------------------------
 | 3-1.ogg | 3-2.ogg | 3-3.ogg | 3-4.ogg |
 -----------------------------------------
@@ -37,7 +38,7 @@ For the loops just put the files inside the "loops" directory
 |  4.ogg  |
 -----------
 ```
-To make the samples and loops I recommend to use Audacity (audacity.sourceforge.net),
+To make the samples and loops I recommend to use Audacity <audacity.sourceforge.net>,
 it's free software, easy to use and you can export directly to ogg format.
 
 Keyboard mapping
@@ -76,7 +77,7 @@ a limit of how many keys can be pressed at the same time, so take that in consid
 More infoFoobar
 =========
 
-You can visit http://blog.teubi.co/ for more information.
+You can visit <http://blog.teubi.co/> for more information.
 
 Licensing
 =========
