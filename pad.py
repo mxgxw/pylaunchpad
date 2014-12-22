@@ -1,17 +1,33 @@
-import pygame
+# Copyright 2014 - Mario Gomez <mario.gomez_at_teubi.co>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import pygame
 
 def main():
   pygame.init()
   pygame.mixer.init()
   screen = pygame.display.set_mode((640,480))
 
+  # Key mapping for the 4x4 PAD
   btn_map = [
     [pygame.K_1,pygame.K_2,pygame.K_3,pygame.K_4],
     [pygame.K_q,pygame.K_w,pygame.K_e,pygame.K_r],
     [pygame.K_a,pygame.K_s,pygame.K_d,pygame.K_f],
     [pygame.K_z,pygame.K_x,pygame.K_c,pygame.K_v]
     ]
+  # Key mapping for loops
   loop_map = [pygame.K_F1,pygame.K_F2,pygame.K_F3,pygame.K_F4]
   
   btn_state = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
@@ -20,9 +36,12 @@ def main():
   btn_loop_state = [0,0,0,0]
   snd_loop = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
   snd_fade = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+  
+  # Load sammples
   for i in range(4):
     for j in range(4):
       sounds[j].append(pygame.mixer.Sound('./samples/'+str(j+1)+'-'+str(i+1)+'.ogg'))
+  # Load loops
   for i in range(4):
     loops.append(pygame.mixer.Sound('./loops/'+str(i+1)+'.ogg'))
     

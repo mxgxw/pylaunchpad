@@ -1,4 +1,4 @@
-pylaunchpad
+PyLaunchpad
 ===========
 
 A very simple launchpad for samples and loops written in Python and Pygame.
@@ -32,6 +32,9 @@ For the loops just put the files inside the "loops" directory
 |  4.ogg  |
 -----------
 ```
+To make the samples and loops I recommend to use Audacity (audacity.sourceforge.net),
+it's free software, easy to use and you can export directly to ogg format.
+
 Keyboard mapping
 ================
 
@@ -70,3 +73,17 @@ More info
 
 You can visit http://blog.teubi.co/ for more information.
 
+Licensing
+=========
+PyLaunchpad is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+PyLaunchpad is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with PyLaunchpad.  If not, see <http://www.gnu.org/licenses/>.
