@@ -3,6 +3,11 @@ PyLaunchpad
 
 A very simple launchpad for samples and loops written in Python and Pygame.
 
+Minimum requirements
+====================
+
+Python 2.7.5 and PyGame
+
 How change the samples?
 =======================
 
@@ -68,7 +73,7 @@ again to stop it.
 You can have several loops and samples playing at the same time, but keyboard could have
 a limit of how many keys can be pressed at the same time, so take that in consideratio.
 
-More info
+More infoFoobar
 =========
 
 You can visit http://blog.teubi.co/ for more information.
