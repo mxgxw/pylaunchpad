@@ -38,7 +38,7 @@ For the loops just put the files inside the "loops" directory
 |  4.ogg  |
 -----------
 ```
-To make the samples and loops I recommend to use Audacity <audacity.sourceforge.net>,
+To make the samples and loops I recommend to use Audacity <http://audacity.sourceforge.net>,
 it's free software, easy to use and you can export directly to ogg format.
 
 Keyboard mapping
