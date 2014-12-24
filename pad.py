@@ -16,8 +16,8 @@
 import pygame
 
 def main():
+  pygame.mixer.pre_init(44100, -16, 2, 1024)
   pygame.init()
-  pygame.mixer.init()
   screen = pygame.display.set_mode((640,480))
 
   # Key mapping for the 4x4 PAD
@@ -28,7 +28,7 @@ def main():
     [pygame.K_z,pygame.K_x,pygame.K_c,pygame.K_v]
     ]
   # Key mapping for loops
-  loop_map = [pygame.K_F1,pygame.K_F2,pygame.K_F3,pygame.K_F4]
+  loop_map = [pygame.K_5,pygame.K_t,pygame.K_g,pygame.K_b]
   
   btn_state = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
   sounds = [[],[],[],[]]
